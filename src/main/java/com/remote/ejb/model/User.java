@@ -41,4 +41,10 @@ public class User implements Serializable {
 		this.correo = correo;
 	}
 
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Cedula => " + this.cedula + "Nombre => " + this.nombre;
+	}
+
 }
